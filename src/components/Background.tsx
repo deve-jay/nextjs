@@ -1,14 +1,10 @@
-import {BackgroundBeamsWithCollision} from "@/components/ui/background-beams-with-collision";
-// import "@/components/Css/Background";
+import {BackgroundBeams} from "@/components/ui/background-beams";
 
 
 const Background = () => {
     return (
-        <BackgroundBeamsWithCollision
-            children={"hello "}
-            className="black"
-        >
-        </BackgroundBeamsWithCollision>
+        <BackgroundBeams />
+
     );
 };
 
